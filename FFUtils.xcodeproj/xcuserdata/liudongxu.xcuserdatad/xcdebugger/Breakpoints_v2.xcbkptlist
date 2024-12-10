@@ -14,10 +14,153 @@
             filePath = "FFUtils/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "07E19588-AB2E-4531-8CFA-658CBFA08D80 - a3f573d3223c6703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "213">
+               </Location>
+               <Location
+                  uuid = "07E19588-AB2E-4531-8CFA-658CBFA08D80 - a3f573d3223c6722"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "222">
+               </Location>
+               <Location
+                  uuid = "07E19588-AB2E-4531-8CFA-658CBFA08D80 - a3f573d3223c6722"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "213">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EEF5611-730D-47A4-B9E9-59374215B388"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FFUtils/FFWriter.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "FFWriter::Start()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EEF5611-730D-47A4-B9E9-59374215B388 - b7d65e325231e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FFWriter::Start()"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/FFWriter.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "6EEF5611-730D-47A4-B9E9-59374215B388 - b7d65e32523042"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FFWriter::Start()"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/FFWriter.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "211">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "317CD5AE-1C5E-4F2E-8F54-77AB65DCE9C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FFUtils/FFWriter.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "WriteVideoFrame(frame, pts)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "317CD5AE-1C5E-4F2E-8F54-77AB65DCE9C8 - 669ab82e1f8f4ebb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FFWriter::WriteVideoFrame(AVFrame*, long long)"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/FFWriter.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "326">
+               </Location>
+               <Location
+                  uuid = "317CD5AE-1C5E-4F2E-8F54-77AB65DCE9C8 - 669ab82e1f8f4ebb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FFWriter::WriteVideoFrame(AVFrame*, long long)"
+                  moduleName = "FFUtils"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liudongxu/FFUtils/FFUtils/FFWriter.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "313">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

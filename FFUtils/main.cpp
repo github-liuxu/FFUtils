@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "FFReader.hpp"
+#include "FFWriter.hpp"
 extern "C" {
 #include <libavformat/avformat.h>
 #include <libavcodec/avcodec.h>
@@ -31,6 +32,13 @@ int main(int argc, const char * argv[]) {
     FFReader *reader = new FFReader();
     reader->OpenFile(filename);
     AVFrame *frame = reader->ReaderVideoFrame();
+    
+    FFWriter *write = new FFWriter();
+    write->OpenFile(dts);
+    write->AddVideoStream();
+//    write->Start();
+    write->WriteVideoFrame(frame, 0);
+    write->WriteTrailer();
     
 //    const AVOutputFormat *ofmt = NULL;
 //    AVFormatContext *ifmt_ctx = NULL, *ofmt_ctx = NULL;
