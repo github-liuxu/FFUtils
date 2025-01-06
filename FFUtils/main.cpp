@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include "FFReadWriter.h"
-#include "LXDebugFrame.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -21,7 +20,6 @@ int main(int argc, const char * argv[]) {
     reader->Open(filename);
     reader->SetRange(0, 10000000);
     AVFrame *frame = reader->ReadAVFrame();
-    DebugFrame(frame);
     VideoWriter *write = new VideoWriter();
     write->OpenFile(dts);
     write->StartFileWriter(1920, 1080);
