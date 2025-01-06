@@ -6,8 +6,8 @@
 //
 
 #include <iostream>
-#include "VideoReader.hpp"
-#include "VideoWriter.hpp"
+#include "FFReadWriter.h"
+#include "LXDebugFrame.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -19,9 +19,9 @@ int main(int argc, const char * argv[]) {
     remove(dts);
     VideoReader *reader = new VideoReader();
     reader->Open(filename);
-    reader->SetRange(0, 1000000);
+    reader->SetRange(0, 10000000);
     AVFrame *frame = reader->ReadAVFrame();
-    
+    DebugFrame(frame);
     VideoWriter *write = new VideoWriter();
     write->OpenFile(dts);
     write->StartFileWriter(1920, 1080);
@@ -30,6 +30,7 @@ int main(int argc, const char * argv[]) {
         if (frame == nullptr) {
             break;
         }
+        
         bool suc = write->WriterAVFrame(frame);
     }
     write->WriterTrailer();
