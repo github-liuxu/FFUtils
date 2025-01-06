@@ -8,4 +8,5 @@
 #define MYAPPLICATION_TRANSCODE_H
 int transcode(const char *srcPath, const char * dtsPath);
 int remux(const char *inputFile, const char *outputFile);
+int main11(const char *filename, const char *codec_name);
 #endif //MYAPPLICATION_TRANSCODE_H

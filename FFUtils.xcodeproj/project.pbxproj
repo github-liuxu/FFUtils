@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C50388A2D24502900480619 /* VideoReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C5038862D24502700480619 /* VideoReader.cpp */; };
+		0C50388B2D24502900480619 /* VideoWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C5038892D24502800480619 /* VideoWriter.cpp */; };
 		58D662732CF0848F00F942AC /* transcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 58D662722CF0848F00F942AC /* transcode.c */; };
 		58D662752CF0909000F942AC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D662742CF0909000F942AC /* CoreImage.framework */; };
 		58D662772CF090B800F942AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D662762CF090B800F942AC /* CoreGraphics.framework */; };
@@ -26,8 +28,6 @@
 		58D662A12CF5642300F942AC /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D662982CF5642300F942AC /* libx264.a */; };
 		58D662A32CF564EE00F942AC /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D662A22CF564EE00F942AC /* Metal.framework */; };
 		58D664492CF6E3DD00F942AC /* remux.c in Sources */ = {isa = PBXBuildFile; fileRef = 58D664482CF6E3DD00F942AC /* remux.c */; };
-		58D6644C2CF6E94A00F942AC /* FFReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D6644B2CF6E94A00F942AC /* FFReader.cpp */; };
-		58F24F0E2D080B50007914AD /* FFWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58F24F0D2D080B50007914AD /* FFWriter.cpp */; };
 		58F8CC012C59D3FD00CD2243 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58F8CC002C59D3FD00CD2243 /* main.cpp */; };
 		58F8CCBC2C5B431300CD2243 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F8CCBB2C5B431300CD2243 /* libbz2.tbd */; };
 		58F8CCBE2C5B431900CD2243 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F8CCBD2C5B431900CD2243 /* VideoToolbox.framework */; };
@@ -53,6 +53,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C5038862D24502700480619 /* VideoReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoReader.cpp; sourceTree = "<group>"; };
+		0C5038872D24502800480619 /* VideoWriter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoWriter.hpp; sourceTree = "<group>"; };
+		0C5038882D24502800480619 /* VideoReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoReader.hpp; sourceTree = "<group>"; };
+		0C5038892D24502800480619 /* VideoWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoWriter.cpp; sourceTree = "<group>"; };
 		58D662712CF0848F00F942AC /* transcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transcode.h; sourceTree = "<group>"; };
 		58D662722CF0848F00F942AC /* transcode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transcode.c; sourceTree = "<group>"; };
 		58D662742CF0909000F942AC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -73,12 +77,8 @@
 		58D662982CF5642300F942AC /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = 7.1/lib/libx264.a; sourceTree = "<group>"; };
 		58D662A22CF564EE00F942AC /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		58D664482CF6E3DD00F942AC /* remux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = remux.c; sourceTree = "<group>"; };
-		58D6644A2CF6E94A00F942AC /* FFReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FFReader.hpp; sourceTree = "<group>"; };
-		58D6644B2CF6E94A00F942AC /* FFReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FFReader.cpp; sourceTree = "<group>"; };
-		58F24F0C2D080B50007914AD /* FFWriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FFWriter.hpp; sourceTree = "<group>"; };
-		58F24F0D2D080B50007914AD /* FFWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FFWriter.cpp; sourceTree = "<group>"; };
 		58F8CBFD2C59D3FD00CD2243 /* FFUtils */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FFUtils; sourceTree = BUILT_PRODUCTS_DIR; };
-		58F8CC002C59D3FD00CD2243 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		58F8CC002C59D3FD00CD2243 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		58F8CCA52C5A538A00CD2243 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 		58F8CCA62C5A539200CD2243 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		58F8CCBB2C5B431300CD2243 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -154,10 +154,10 @@
 				58D662712CF0848F00F942AC /* transcode.h */,
 				58D662722CF0848F00F942AC /* transcode.c */,
 				58D664482CF6E3DD00F942AC /* remux.c */,
-				58D6644A2CF6E94A00F942AC /* FFReader.hpp */,
-				58D6644B2CF6E94A00F942AC /* FFReader.cpp */,
-				58F24F0C2D080B50007914AD /* FFWriter.hpp */,
-				58F24F0D2D080B50007914AD /* FFWriter.cpp */,
+				0C5038862D24502700480619 /* VideoReader.cpp */,
+				0C5038882D24502800480619 /* VideoReader.hpp */,
+				0C5038892D24502800480619 /* VideoWriter.cpp */,
+				0C5038872D24502800480619 /* VideoWriter.hpp */,
 			);
 			path = FFUtils;
 			sourceTree = "<group>";
@@ -255,9 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D6644C2CF6E94A00F942AC /* FFReader.cpp in Sources */,
 				58D664492CF6E3DD00F942AC /* remux.c in Sources */,
-				58F24F0E2D080B50007914AD /* FFWriter.cpp in Sources */,
+				0C50388A2D24502900480619 /* VideoReader.cpp in Sources */,
+				0C50388B2D24502900480619 /* VideoWriter.cpp in Sources */,
 				58F8CC012C59D3FD00CD2243 /* main.cpp in Sources */,
 				58D662732CF0848F00F942AC /* transcode.c in Sources */,
 			);
