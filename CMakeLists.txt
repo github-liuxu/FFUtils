@@ -7,7 +7,7 @@ add_subdirectory(../FFReadWriter FFReadWriter)
 
 target_compile_features(FFUtils PRIVATE cxx_std_11)
 
-target_include_directories(FFUtils PRIVATE 7.1/include)
+target_include_directories(FFUtils PRIVATE ../FFReadWriter/Sources/FFReadWriter/ffmpeg-sdk-osx/include)
 
 target_link_libraries(FFUtils PRIVATE FFReadWriter
 "-framework Foundation"
@@ -15,5 +15,5 @@ target_link_libraries(FFUtils PRIVATE FFReadWriter
 
 target_link_directories(FFUtils PRIVATE
     ${CMAKE_SOURCE_DIR}/build/FFReadWriter
-    ${CMAKE_SOURCE_DIR}/7.1/lib
+    ${CMAKE_SOURCE_DIR}/../FFReadWriter/Sources/FFReadWriter/ffmpeg-sdk-osx/lib
 )
